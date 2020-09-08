@@ -1,0 +1,31 @@
+####change directory####
+
+C:\WINDOWS\system32>cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+
+
+
+
+####export####
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p aritra > "C:\Users\arpan\Desktop\New folder\aritra.sql"
+Enter password: 0801
+
+
+
+####import####
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p aritra < "C:\Users\arpan\Desktop\New folder\aritra.sql"
+Enter password: 0801
+
+
+
+
+
+
+
+
+
+
+
+
+mysql -u root -p arnab < "C:\Users\arpan\Desktop\New folder"

@@ -1,0 +1,18 @@
+desc pref;
+
+select * from pref;
+
+alter table pref add status varchar(20) not null;
+
+insert into pref values('Delux','Tier 1','Non-AC',101,null,500,'not taken');
+
+select Room_no,Room,Bed,Type,Price from pref where Room='Delux' and Bed='Tier 1' and Type='Non-AC' and Username is null;
+
+*** update pref set Username='asd',status='taken' where Room=101;
+
+*** update pref set Username=null,status='not taken' where status='taken';
+
+from signup where Username='qwe'
+
+desc pref;
+select * from pref;
