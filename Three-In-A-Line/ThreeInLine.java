@@ -315,8 +315,7 @@ class Player{
 
     public static Player[] playerDetails(){
         Player.no_player=2;
-        Scanner scan = new Scanner(System.in);
-
+       
         Player pList[]=new Player[2];
 
         String name = new String("PLAYER 1");
@@ -507,7 +506,7 @@ class ThreeInLine{
 
         Scanner scan = new Scanner(System.in);
         
-        int row=3, column=3, choice0, choice1, no_player=2;
+        int row=3, column=3, choice0, no_player=2;
         Player pList[]=Player.playerDetails();
 
         Board board=null;
